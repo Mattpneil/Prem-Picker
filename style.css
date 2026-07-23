@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0b0b18;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.app {
+    max-width: 900px;
+    margin: auto;
+}
+
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+
+.subtitle {
+    color: #bbb;
+    font-size: 18px;
+}
+
+
+#counter {
+    margin: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    gap: 15px;
+}
+
+
+.team {
+    height: 110px;
+    border-radius: 15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+    border:3px solid rgba(255,255,255,.2);
+}
+
+
+.team:hover {
+    transform:scale(1.05);
+}
+
+
+.selected {
+    animation:pulse .5s infinite alternate;
+}
+
+
+@keyframes pulse {
+    from {
+        transform:scale(1);
+    }
+
+    to {
+        transform:scale(1.08);
+    }
+}
+
+
+.eliminated {
+    opacity:.3;
+    filter:grayscale(100%);
+}
+
+
+button {
+
+    margin-top:30px;
+    padding:15px 35px;
+    font-size:18px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    background:#00ff87;
+    font-weight:bold;
+
+}
+
+
+button:hover {
+    transform:scale(1.05);
+}
+
+
+#message {
+
+    margin:25px;
+    font-size:28px;
+    font-weight:bold;
+
+}
+
+
+.eliminated-box {
+
+    margin-top:30px;
+    background:#151525;
+    padding:20px;
+    border-radius:15px;
+
+}
+
+
+.hidden {
+    display:none;
+}
+
+
+.winner {
+
+    font-size:50px;
+    animation:pulse 1s infinite alternate;
+
+}
