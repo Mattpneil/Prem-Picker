@@ -17,9 +17,9 @@ const teams = [
 {name:"Nottingham Forest", color:"#DD0000"},
 {name:"Sunderland", color:"#EB172B"},
 {name:"Tottenham", color:"#132257"},
-{name:"West Ham", color:"#7A263A"},
-{name:"Wolverhampton", color:"#FDB913"},
-{name:"Burnley", color:"#6C1D45"}
+{name:"Coventry City", color:"#6CABDD"},
+{name:"Ipswich Town", color:"#0044A9"},
+{name:"Hull City", color:"#F5A623"}
 
 ];
 
